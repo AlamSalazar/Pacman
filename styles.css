@@ -1,0 +1,207 @@
+/* ESTILO imagen*/
+#imag1 {
+    position: absolute;
+    top: 13%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#imag2 {
+    position: absolute;
+    top: 38%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#imag3 {
+    position: absolute;
+    top: 63%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#imag4 {
+    position: absolute;
+    top: 88%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+#imag5 {
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.selector {
+    width: 8%;
+}
+
+#imaC {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* ESTILOS fondo onmouseup y onmousedown*/
+
+.fondo2 {
+    background: orange;
+}
+
+.fondoP {
+    background: black;
+}
+
+@font-face {
+    font-family: "pixel";
+    src: url("./fonts/Pixel.ttf");
+}
+
+.letras {
+    color: white;
+    font-family: "pixel", sans-serif;
+}
+
+.apuntador {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#titulo {
+    border-radius: 1rem;
+    background-color: yellowgreen;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#instrucciones {
+    border-radius: 1rem;
+    background-color: yellowgreen;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#BYNKY {
+    border-radius: 1rem;
+    background-color: red;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#PINKY {
+    border-radius: 1rem;
+    background-color: pink;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#INKY {
+    border-radius: 1rem;
+    background-color: cyan;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#CLYDE {
+    border-radius: 1rem;
+    background-color: yellow;
+    color: black;
+    text-size-adjust: 50%;
+    text-align: center;
+    width: 10%;
+    height: 6%;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.tam svg {
+    width: 30%;
+    height: 30%;
+}
+
+
+.contenedor {
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue  ;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    overflow: hidden;
+}
+
+#rebotador {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+#circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+#mira {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    
+
+}
